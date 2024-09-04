@@ -1,0 +1,136 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: "DM Serif Text", serif;
+    text-transform: capitalize;
+}
+.section{
+    margin: 20px;
+}
+.section__1{
+    background-color: black;
+    color: white;
+    padding: 10px;
+   
+}
+.section__1 h1{
+    font-size: 60px;
+    padding: 5px;
+}
+.section__1 p{
+    font-size: 30px;
+    
+    padding:5px ;
+}
+.section__1 a{
+    text-decoration: none;
+    background-color: cyan;
+    color: white;
+    padding: 3px 3px ;
+    border-radius: 5px;
+}
+.section__2{
+    margin-top: 10px;
+}
+.section__3 ul{
+    list-style: none;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+
+.section__3{
+    background-color: blueviolet;
+    border-radius: 10px;
+    height: 200px;
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    padding: 10px;
+    vertical-align:top;
+}
+.section__4{
+ background-color: orangered;
+ color: white;
+ margin-top: 10px;
+ border-radius: 10px;
+ padding: 10px;
+ height: 200px;
+ display: inline-block;
+ vertical-align:top;
+
+}
+.section__4 ul{
+    list-style: none;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+.section__5{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+
+
+}
+.section__5 p{
+    padding: 5px;
+}
+.section__5 a{
+    color: skyblue;
+    text-decoration: none;
+}
+.form{
+    border: solid 2px lightsteelblue;
+    margin: 10px;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+
+}
+.form__input{
+    border: none;
+   
+    border-bottom: solid 2px black;
+    width: 300px;
+    margin-top: 10px;
+}
+.form__textarea{
+    width: 300px;
+    font-size: 14px;
+    text-align: center;
+  
+}
+.form__submit{
+    padding: 5px;
+    margin-top: 10px;
+    background-color: lightgray;
+    color:black ;
+    border: none;
+}
+.form__submit:hover{
+    background-color: navy;
+    color: white;
+    border-radius: 5px;
+}
+.form__reset{
+    padding: 5px;
+    margin-top: 10px;
+    background-color: lightgray;
+    color:black ;
+    border: none;
+}
+.form__reset:hover{
+    border-radius: 5px;
+    outline: black 1px solid;
+}
+.form__input:focus{
+    border: none;
+}
+
+ 
+
